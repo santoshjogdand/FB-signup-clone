@@ -1,0 +1,235 @@
+
+body{
+    margin: 0px;
+    overflow-y: scroll;
+    background-color: rgb(240,242,245);
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+}
+.line{
+    width: 100%;
+    height: .5px;
+    margin-top: 2%;
+    background-color: rgb(218, 218, 218);
+}
+#img1{
+    margin-top: 10px;
+    display: flex;
+    width: 284px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    display: flex;
+    flex-grow: inherit;
+    flex-direction: column;
+    margin-top: 12px;
+    width: 435px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+   background-color: white;
+}
+.shadow{
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.17);
+-webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.17);
+-moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.17);
+}
+#foot{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px 0px 0px 0px;
+}
+footer{
+    
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.p1{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Heebo';
+    margin-top: 10px;
+    font-weight: 600;
+}
+.p2{
+    color: rgb(117, 86, 86);
+    text-align: center;
+    font-size: 15px;
+    margin-top: -5px;
+    font-family: 'Heebo';
+    font-weight: 400;
+}
+
+.btn{
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #00a400;
+    padding-top: 0px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(5, 111, 204);
+}
+input{
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 5px;
+    
+}
+
+select{
+    height: 41px;
+    width: 32%;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 5px;
+    margin-right: 1.25%;
+    padding-left: 5px;
+    font-style: 'heebo';
+    font-family: 'heebo';
+    font-size: 15px;
+    font-weight: 400;
+}
+.sellast{
+    margin-right: 0px;
+}
+.dob{
+    font-family: 'Heebo';
+    font-weight: 400;
+    color: rgb(90, 90, 90);
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.pt1{
+    margin-right: 1.5%;
+    width: 48.5%;
+    margin-bottom: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 0px;
+    font-weight: 500;
+}
+.pt2{
+    width: 48.7%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.frm{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.btns{
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bt2{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.gender{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Heebo';
+    font-weight: 400;
+    color: rgb(90, 90, 90);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.name{
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+p{
+    margin: 0px;
+}
+.bttmp{
+    font-family: 'Heebo';
+    font-weight: 400;
+    color: rgb(90, 90, 90);
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#foot{
+    display: flex;
+    width: 100vw;
+}
+.footp{
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+.footp ul li{
+    display: inline;
+    
+}
+.blue{
+    color: rgb(74, 74, 255);
+    text-decoration: none;
+}
+.rdd {
+    display: flex;
+    font-size: 15px;
+    color: black;
+    margin-top: 0px;
+}
+
+.sp{
+    display: flex;
+    border: 1px solid rgb(178, 178, 178);
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+}
+.s1{
+    margin-right: 8px;
+}
+.sp input{
+    /* width: 13px; */
+    height: 40px;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 110px;
+}
+.sp label{
+    padding-left: 10px;
+    padding-top: 8px;
+}
+/* #rd1{
+    margin-left: ;
+} */
+.footp ul li{
+    margin-right: 20px;
+    color: rgb(78,118,178);
+    font-size: 12px;
+}
