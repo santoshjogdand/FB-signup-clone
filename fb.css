@@ -3,6 +3,7 @@ body{
     margin: 0px;
     overflow-y: scroll;
     background-color: rgb(240,242,245);
+    height: 100%;
 }
 
 #main{
@@ -10,8 +11,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
-    width: 100vw;
+    width: 100%;
 }
 .line{
     width: 100%;
@@ -29,14 +29,13 @@ body{
 }
 #content{
     display: flex;
-    flex-grow: inherit;
     flex-direction: column;
     margin-top: 12px;
     width: 435px;
     /* border: 1px solid black; */
     border-radius: 8px;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     height: 600px;
    background-color: white;
 }
@@ -165,7 +164,7 @@ select{
     margin-top: 10px;
 }
 
-.name{
+.name{ 
     width: 100%;
     margin-top: -10px;
     margin-bottom: 0px;
@@ -183,7 +182,7 @@ p{
 
 #foot{
     display: flex;
-    width: 100vw;
+    width: 100%;
 }
 .footp{
     margin-bottom: 0px;
