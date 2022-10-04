@@ -4,6 +4,7 @@ body{
     overflow-y: scroll;
     background-color: rgb(240,242,245);
     height: 100%;
+    width: 100%;
 }
 
 #main{
