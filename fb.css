@@ -1,10 +1,10 @@
 
+
 body{
     margin: 0px;
     overflow-y: scroll;
     background-color: rgb(240,242,245);
     height: 100%;
-    Width: 100%
 }
 
 #main{
@@ -233,3 +233,4 @@ p{
     color: rgb(78,118,178);
     font-size: 12px;
 }
+
