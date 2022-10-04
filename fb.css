@@ -195,8 +195,8 @@ p{
 .footp{
     
     margin-bottom: 0px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .footp ul li{
     display: inline;
