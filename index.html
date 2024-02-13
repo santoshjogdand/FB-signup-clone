@@ -1,209 +1,294 @@
-<!DOCTYPE html>
-<html>
+body {
+    margin: 0px;
+    overflow-y: scroll;
+    background-color: rgb(240, 242, 245);
+    height: 100%;
+    width: 100%;
+}
 
-<head>
-    <link rel="stylesheet" href="fb.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
-<body>
-    <div id="main">
-        <div id="img1">
-            <img src="./fb.svg" alt="IMG not found">
-        </div>
-        <div id="content" class="shadow">
-            <p class="p1">Create a new account</p>
-            <p class="p2">It's quick and easy.</p>
-            <div class="line1"></div>
-            <div action="" class="frm">
-                <div class="name">
-                    <input type="text" placeholder="First Name" name="First name" class="pt1 txt">
-                    <input type="text" placeholder="Surname" class="pt2 txt">
-                </div>
-                <input type="text" placeholder="Mobile number or email address" name="First name" class="txt">
-                <input type="password" placeholder="Password" name="First name" class="txt">
-                <div class="dob">
-                    <p>Date of birth</p>
-                    <select>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                        <option value="13">13</option>
-                        <option value="14">14</option>
-                        <option value="15">15</option>
-                        <option value="16">16</option>
-                        <option value="17">17</option>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <option value="21">21</option>
-                        <option value="22">22</option>
-                        <option value="23">23</option>
-                        <option value="24">24</option>
-                        <option value="25">25</option>
-                        <option value="26">26</option>
-                        <option value="27">27</option>
-                        <option value="28">28</option>
-                        <option value="29" selected="1">29</option>
-                        <option value="30">30</option>
-                        <option value="31">31</option>
-                    </select>
-                    <select>
-                        <option value="1">JAN</option>
-                        <option value="2">FEB</option>
-                        <option value="3">MAR</option>
-                        <option value="4">APR</option>
-                        <option value="5">MAY</option>
-                        <option value="6">JUN</option>
-                        <option value="7">JUL</option>
-                        <option value="8">AUG</option>
-                        <option value="9">SEP</option>
-                        <option value="10">OCT</option>
-                        <option value="11">NOV</option>
-                        <option value="12">DEC</option>
-                    </select>
-                    <select class="sellast">
-                        <option value="1">1973</option>
-                        <option value="2">1974</option>
-                        <option value="3">1975</option>
-                        <option value="4">1976</option>
-                        <option value="5">1978</option>
-                        <option value="6">1979</option>
-                        <option value="7">1980</option>
-                        <option value="8">1981</option>
-                        <option value="9">1982</option>
-                        <option value="10">1983</option>
-                        <option value="11">1984</option>
-                        <option value="12">1985</option>
-                        <option value="13">1986</option>
-                        <option value="14">1987</option>
-                        <option value="15">1989</option>
-                        <option value="16">1990</option>
-                        <option value="17">1991</option>
-                        <option value="18">1992</option>
-                        <option value="19">1993</option>
-                        <option value="20">1994</option>
-                        <option value="21">1995</option>
-                        <option value="22">1996</option>
-                        <option value="23">1997</option>
-                        <option value="24">1998</option>
-                        <option value="25">1999</option>
-                        <option value="26">2000</option>
-                        <option value="27">2001</option>
-                        <option value="28">2002</option>
-                        <option value="29" selected="1">2003</option>
-                        <option value="30">2004</option>
-                        <option value="31">2005</option>
-                    </select>
-                </div>
-                <div class="gender">
-                    <DIv>
-                        <P>Gender</P>
-                    </DIv>
-                    <div class="rdd">
-                        <div class="sp s1">
-                            <label for="rd1">Male</label>
-                            <input type="radio" name="First name" id="rd1" class="rd">
-                        </div>
-                        <div class="sp s1">
-                            <label for="rd2">Female</label>
-                            <input type="radio" name="First name" id="rd2" class="rd">
-                        </div>
-                        <div class="sp">
-                            <label for="rd3">Transgender</label>
-                            <input type="radio" name="First name" id="rd3" class="rd">
-                        </div>
-                    </div>
-                </div>
-                <div class="bttmp">
-                    <P>People who use our service may have uploaded your contact information to Facebook. <a
-                            href="#">Learn
-                            more.</a> </P>
-                    <P>By clicking Sign Up, you agree to our <a> Terms,</a> <a>Privacy
-                            Policy</a> and <a>Cookies Policy.</a> You may
-                        receive SMS notifications from us and can opt out at any time.</P>
-                </div>
-            </div>
-            <div class="btns">
-                <div class="btn"><a href="#" class="btn">Sign Up</a></div>
-                <a href="#" class="a bt2">
-                    <p>Already have an account?</p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div id="foot">
-        <footer>
-            <DIv id="m-20px" class="footp">
-                <ul>
-                    <li><a>English (UK)</a></li>
-                    <li><a>हिन्दी </a> </li>
-                    <li><a> मराठी </a> </li>
-                    <li> ಕನ್ನಡ </li>
-                    <li> ਪੰਜਾਬੀ </li>
-                    <li> தமிழ் </li>
-                    <li> বাংলা </li>
-                    <li>తెలుగు </li>
-                    <li>മലയാളം</li>
-                </ul>
-                <div class="line"></div>
-            </DIv>
+.line {
+    width: 100%;
+    height: .5px;
+    background-color: rgb(218, 218, 218);
+    margin-top: -5px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
 
-            <div class="footp">
-                <ul>
-                    <li>Sign Up</li>
-                    <li>Log in</li>
-                    <li>Messenger</li>
-                    <li>Facebook</li>
-                    <li>Lite</li>
-                    <li>Watch</li>
-                    <li>Places</li>
-                    <li>Games</li>
-                    <li>Marketplace</li>
-                    <li>Meta</li>
-                    <li>PayOculus</li>
-                    <li>Portal</li>
-                    <li>Instagram</li>
-                    <li>Bulletin</li>
-                    <li>Local</li>
-                    <li>Fundraisers</li>
-                    <li>Services</li>
-                    <li>Voting</li>
-                    <li>Information</li>
-                    <li>Centre</li>
-                    <li>Groups Ad</li>
-                    <li>Create</li>
-                    <li>Page</li>
-                    <li>Developers</li>
-                    <li>Careers</li>
-                    <li>Privacy</li>
-                    <li>Cookies</li>
-                    <li>Ad</li>
-                    <li>Choices</li>
-                    <li>Terms</li>
-                    <li>Help</li>
-                    <li>Contact</li>
-                    <li>uploading and non-users</li>
-                    <li>Settings</li>
-                    <li>Activity</li>
-                    <li>log</li>
-                    <li>Meta © 2022
-                    <li>
-                </ul>
-            </div>
-        </footer>
-    </div>
-</body>
+img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-</html>
+#img1 {
+    margin-top: 10px;
+    display: flex;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    width: 28rem;
+    border-radius: 8px;
+    height: 37.5rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.17);
+}
+
+/* #foot{
+    width: 1px;
+    height: auto;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px 0px 0px 0px;
+} */
+footer {
+    margin-top: 50px;
+    background-color: white;
+    height: 100%;
+    width: 110%;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Heebo';
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.p2 {
+    color: rgb(137, 137, 137);
+    text-align: center;
+    font-size: 15px;
+    margin-top: -5px;
+    font-family: 'Heebo';
+    font-weight: 400;
+}
+
+.btn {
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #00a400;
+    padding-top: 0px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(5, 111, 204);
+}
+
+input {
+    height: 37px;
+    margin-top: 10px;
+    border: 0.1px solid rgb(157, 157, 157);
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+select {
+    height: 41px;
+    width: 32%;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 5px;
+    margin-right: 1.25%;
+    padding-left: 5px;
+    font-style: 'heebo';
+    font-family: 'heebo';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sellast {
+    margin-right: 0px;
+}
+
+.dob {
+    font-family: 'Heebo';
+    font-weight: 400;
+    color: rgb(90, 90, 90);
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.pt1 {
+    width: 11rem;
+    margin-bottom: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 0px;
+    font-weight: 500;
+}
+
+.pt2 {
+    width: 12rem;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.frm {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btns {
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt2 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Heebo';
+    font-weight: 400;
+    color: rgb(90, 90, 90);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* .name {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 0px;
+} */
+
+p {
+    margin: 0px;
+}
+
+.bttmp {
+    font-family: 'Heebo';
+    font-weight: 400;
+    color: rgb(90, 90, 90);
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#foot {
+    display: flex;
+    width: 100%;
+}
+
+.footp {
+
+    margin-bottom: 0px;
+    margin-right: 10%;
+    margin-left: 14%;
+}
+
+.footp ul li {
+    display: inline;
+
+}
+
+.blue {
+    color: rgb(74, 74, 255);
+    text-decoration: none;
+}
+
+.rdd {
+    display: flex;
+    font-size: 15px;
+    color: black;
+    margin-top: 0px;
+}
+
+.sp {
+    display: flex;
+    border: 1px solid rgb(178, 178, 178);
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.s1 {
+    margin-right: 8px;
+}
+
+.sp input {
+    /* width: 13px; */
+    height: 40px;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 110px;
+}
+
+.sp label {
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+/* #rd1{
+    margin-left: ;
+} */
+.footp ul li {
+
+    margin-right: 12px;
+    color: rgb(78, 118, 178);
+    font-size: 13px;
+}
+
+#m-20px {
+    margin-top: 40px;
+}
+
+.line1 {
+    width: 100%;
+    height: .5px;
+    background-color: rgb(218, 218, 218);
+    margin-top: 15px;
+    /* margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 20px; */
+}
+
+.txt {
+    font-size: 15px;
+    opacity: 0.8;
+}
