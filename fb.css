@@ -146,8 +146,7 @@ select {
 }
 
 .pt1 {
-    margin-right: 1.5%;
-    width: 48.5%;
+    width: 11rem;
     margin-bottom: 0px;
     font-family: 'Fira Sans', sans-serif;
     margin-left: 0px;
@@ -155,7 +154,7 @@ select {
 }
 
 .pt2 {
-    width: 48.7%;
+    width: 12rem;
     margin-right: 0px;
     margin-bottom: 0px;
 }
@@ -193,11 +192,11 @@ select {
     margin-top: 10px;
 }
 
-.name {
+/* .name {
     width: 100%;
     margin-top: -10px;
     margin-bottom: 0px;
-}
+} */
 
 p {
     margin: 0px;
