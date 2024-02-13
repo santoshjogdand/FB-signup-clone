@@ -23,12 +23,18 @@ body{
     margin-right: 10px;
     margin-left: 40px;
 }
+img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #img1{
     margin-top: 10px;
     display: flex;
-    width: 10vw;
-    justify-content: center;
+    height: 40%;
     align-items: center;
+    justify-content: center;
 }
 #content{
     display: flex;
