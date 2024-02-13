@@ -154,9 +154,11 @@ select {
 }
 
 .pt2 {
-    width: 12rem;
-    margin-right: 0px;
+    width: 11rem;
     margin-bottom: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 0px;
+    font-weight: 500;
 }
 
 .frm {
