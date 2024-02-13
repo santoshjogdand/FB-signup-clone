@@ -1,20 +1,20 @@
-
-body{
+body {
     margin: 0px;
     overflow-y: scroll;
-    background-color: rgb(240,242,245);
+    background-color: rgb(240, 242, 245);
     height: 100%;
     width: 100%;
 }
 
-#main{
+#main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.line{
+
+.line {
     width: 100%;
     height: .5px;
     background-color: rgb(218, 218, 218);
@@ -23,20 +23,23 @@ body{
     margin-right: 10px;
     margin-left: 40px;
 }
-img{
+
+img {
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#img1{
+
+#img1 {
     margin-top: 10px;
     display: flex;
     height: 40%;
     align-items: center;
     justify-content: center;
 }
-#content{
+
+#content {
     display: flex;
     flex-direction: column;
     margin-top: 12px;
@@ -47,11 +50,13 @@ img{
     justify-content: center;
     align-items: center;
 }
-.shadow{
-    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.17);
--webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.17);
--moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.17);
+
+.shadow {
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.17);
 }
+
 /* #foot{
     width: 1px;
     height: auto;
@@ -59,20 +64,22 @@ img{
     background-color: rgb(255, 255, 255);
     margin: 50px 0px 0px 0px;
 } */
-footer{
+footer {
     margin-top: 50px;
     background-color: white;
     height: 100%;
     width: 110%;
 }
-.p1{
+
+.p1 {
     text-align: center;
     font-size: 25px;
     font-family: 'Heebo';
     margin-top: 10px;
     font-weight: 600;
 }
-.p2{
+
+.p2 {
     color: rgb(137, 137, 137);
     text-align: center;
     font-size: 15px;
@@ -81,7 +88,7 @@ footer{
     font-weight: 400;
 }
 
-.btn{
+.btn {
     display: flex;
     color: rgb(255, 255, 255);
     width: 200px;
@@ -93,24 +100,27 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.a{
+
+.a {
     text-align: center;
     text-decoration: none;
     font-size: larger;
     color: rgb(5, 111, 204);
 }
-input{
+
+input {
     height: 37px;
     margin-top: 10px;
     border: 0.1px solid rgb(157, 157, 157);
     border-radius: 5px;
     padding: 2px 10px 2px 10px;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
 
-select{
+select {
     height: 41px;
     width: 32%;
     border: 1px solid rgb(178, 178, 178);
@@ -122,10 +132,12 @@ select{
     font-size: 15px;
     font-weight: 400;
 }
-.sellast{
+
+.sellast {
     margin-right: 0px;
 }
-.dob{
+
+.dob {
     font-family: 'Heebo';
     font-weight: 400;
     color: rgb(90, 90, 90);
@@ -133,7 +145,7 @@ select{
     font-size: 12px;
 }
 
-.pt1{
+.pt1 {
     margin-right: 1.5%;
     width: 48.5%;
     margin-bottom: 0px;
@@ -141,17 +153,20 @@ select{
     margin-left: 0px;
     font-weight: 500;
 }
-.pt2{
+
+.pt2 {
     width: 48.7%;
     margin-right: 0px;
     margin-bottom: 0px;
 }
-.frm{
+
+.frm {
     padding: 16px;
     display: flex;
     flex-direction: column;
 }
-.btns{
+
+.btns {
     font-family: 'Heebo';
     font-weight: 500;
     font-size: 18px;
@@ -160,13 +175,15 @@ select{
     justify-content: center;
     align-items: center;
 }
-.bt2{
+
+.bt2 {
     margin-top: 20px;
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 25px;
 }
-.gender{
+
+.gender {
     display: flex;
     flex-direction: column;
     font-family: 'Heebo';
@@ -176,15 +193,17 @@ select{
     margin-top: 10px;
 }
 
-.name{ 
+.name {
     width: 100%;
     margin-top: -10px;
     margin-bottom: 0px;
 }
-p{
+
+p {
     margin: 0px;
 }
-.bttmp{
+
+.bttmp {
     font-family: 'Heebo';
     font-weight: 400;
     color: rgb(90, 90, 90);
@@ -192,24 +211,28 @@ p{
     font-size: 12px;
 }
 
-#foot{
+#foot {
     display: flex;
     width: 100%;
 }
-.footp{
-    
+
+.footp {
+
     margin-bottom: 0px;
     margin-right: 10%;
     margin-left: 14%;
 }
-.footp ul li{
+
+.footp ul li {
     display: inline;
-    
+
 }
-.blue{
+
+.blue {
     color: rgb(74, 74, 255);
     text-decoration: none;
 }
+
 .rdd {
     display: flex;
     font-size: 15px;
@@ -217,41 +240,46 @@ p{
     margin-top: 0px;
 }
 
-.sp{
+.sp {
     display: flex;
     border: 1px solid rgb(178, 178, 178);
     width: 40%;
     height: 40px;
     border-radius: 5px;
 }
-.s1{
+
+.s1 {
     margin-right: 8px;
 }
-.sp input{
+
+.sp input {
     /* width: 13px; */
     height: 40px;
     margin-top: 0px;
     position: absolute;
     margin-left: 110px;
 }
-.sp label{
+
+.sp label {
     padding-left: 10px;
     padding-top: 8px;
 }
+
 /* #rd1{
     margin-left: ;
 } */
-.footp ul li{
-    
+.footp ul li {
+
     margin-right: 12px;
-    color: rgb(78,118,178);
+    color: rgb(78, 118, 178);
     font-size: 13px;
 }
 
-#m-20px{
+#m-20px {
     margin-top: 40px;
 }
-.line1{
+
+.line1 {
     width: 100%;
     height: .5px;
     background-color: rgb(218, 218, 218);
@@ -261,7 +289,7 @@ p{
     margin-left: 20px; */
 }
 
-.txt{
+.txt {
     font-size: 15px;
     opacity: 0.8;
 }
